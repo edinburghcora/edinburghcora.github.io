@@ -40,8 +40,11 @@ Text for step 1. Explain what happens at this stage and what the reader needs to
   <div><img src="https://picsum.photos/id/1015/800/500" alt="Step 1"></div>
 </div>
 
+<!-- Step 2 uses an image stored in this repo: the file is assets/images/step-2.jpg,
+     and the src below points at it. To change it, drop a new file into assets/images/
+     and update the filename here. -->
 <div class="row">
-  <div><img src="{{ '/assets/images/step-2.png' | relative_url }}" alt="Step 2"></div>
+  <div><img src="{{ '/assets/images/step-2.jpg' | relative_url }}" alt="Step 2"></div>
   <div markdown="1">
 
 ## Step 2 – Heading
