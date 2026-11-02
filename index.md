@@ -18,9 +18,10 @@ layout: default
   @media (max-width: 700px) { .row { flex-direction: column; align-items: stretch; } }
 </style>
 
+<!-- The crest below is loaded from Wikimedia Commons. Swap the src for a file in assets/images/ to use the official wordmark. -->
 <div class="header">
   <h1>Page Title</h1>
-  <img src="{{ '/assets/images/uoe-logo.png' | relative_url }}" alt="University of Edinburgh">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/600px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
 </div>
 
 Intro paragraph goes here. Two or three sentences explaining what this page is about and who it's for.
@@ -64,5 +65,5 @@ Text for step 3. Close out the sequence with the final action.
 <footer>
   <span>Questions? <a href="mailto:contact@ed.ac.uk">contact@ed.ac.uk</a><br>
   © The University of Edinburgh · <a href="https://www.ed.ac.uk">ed.ac.uk</a></span>
-  <img src="{{ '/assets/images/uoe-logo.png' | relative_url }}" alt="University of Edinburgh">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/600px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
 </footer>
