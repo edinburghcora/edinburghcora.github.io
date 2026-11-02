@@ -27,6 +27,8 @@ Intro paragraph goes here. Two or three sentences explaining what this page is a
 
 <div class="cta"><a href="https://example.com/cta">Primary call to action</a></div>
 
+<!-- Images can come from this repo (assets/images/...) or from any https:// URL.
+     Step 1 below uses an online image; Steps 2 and 3 use files from assets/images/. -->
 <div class="row">
   <div markdown="1">
 
@@ -34,7 +36,7 @@ Intro paragraph goes here. Two or three sentences explaining what this page is a
 Text for step 1. Explain what happens at this stage and what the reader needs to do.
 
   </div>
-  <div><img src="{{ '/assets/images/step-1.png' | relative_url }}" alt="Step 1"></div>
+  <div><img src="https://picsum.photos/id/1015/800/500" alt="Step 1"></div>
 </div>
 
 <div class="row">
