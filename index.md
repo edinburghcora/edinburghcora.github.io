@@ -72,7 +72,7 @@ Before you leave, you will be asked to complete the exit survey. This will take 
 
 ### Compensation
 
-You will receive £5 for completing the entire study, and you be entered into a prize draw for £150 cash. You receive one entry into the prize draw for completing the entrance survey. You receive an additional ten entries into the prize draw for attending your in-person session and finishing the entire study. 
+You will receive £5 for completing the entire study, and entered into a prize draw for £150 cash. You receive one entry into the prize draw for completing the entrance survey. You receive an additional ten entries into the prize draw for attending your in-person session and finishing the entire study. 
 
 ### Eligibility
 
