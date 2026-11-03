@@ -52,7 +52,7 @@ Use the button above to check your eligibility for the study, and complete a psy
   <div markdown="1">
 
 ## Step 2 – Attend your Session
-You will be invited to our offices near Bristo Square for your experimental session. A researcher will demonstrate the game and procedure to you and the participant your are paired with. The questions will ask you to share life experiences, important memories, discuss differences in your values and also find common ground. 
+You will be invited to our offices near Bristo Square for your experimental session. A researcher will demonstrate the game and procedure to you and the participant you are paired with. The questions will ask you to share life experiences, important memories, discuss differences in your values and also find common ground. 
 Don't worry - you can skip questions that are too difficult! 
 
   </div>
