@@ -32,10 +32,10 @@ layout: default
   }
 </style>
 
-<!-- The crest below is loaded from Wikimedia Commons. Swap the src for a file in assets/images/ to use the official wordmark. -->
+<!-- The crest is stored in this repo at assets/images/uoe-crest.png. To use the official wordmark, drop it in the same folder and change both src lines (here and in the footer). -->
 <div class="header">
   <h1>CORA Research Group</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/960px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
+  <img src="{{ '/assets/images/uoe-crest.png' | relative_url }}" alt="University of Edinburgh">
 </div>
 <h2>Want to experience a social psychology experiment?</h2>
 The Contact, Outgroup Relations and Attitudes (CORA) research group at The University of Edinburgh now have a rare opportunity for you to join an in-person, social experiment.
@@ -102,5 +102,5 @@ CORA research group is a team of social psychologists at the University of Edinb
 <footer>
   <span>Questions? <a href="mailto:ppls.cora@ed.ac.uk">ppls.cora@ed.ac.uk</a><br>
   © The University of Edinburgh, 2026 · <a href="https://www.ed.ac.uk">ed.ac.uk</a></span>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/960px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
+  <img src="{{ '/assets/images/uoe-crest.png' | relative_url }}" alt="University of Edinburgh">
 </footer>
