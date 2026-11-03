@@ -15,7 +15,21 @@ layout: default
   footer { border-top: 1px solid #ddd; margin-top: 3rem; padding-top: 1rem; font-size: 0.9em;
            color: #555; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
   footer img { height: 40px; }
-  @media (max-width: 700px) { .row { flex-direction: column; align-items: stretch; } }
+  /* ---- Mobile layout (screens narrower than 700px) ----
+     On desktop each row is text | image or image | text, alternating.
+     On mobile the row stacks vertically, and the rules below decide
+     where the image lands in that stack, regardless of HTML order.
+     Every flex item defaults to order: 0, so:
+       order: 2   -> image sorts AFTER the text
+       order: -1  -> image sorts BEFORE the text
+     Change the one number below to flip all rows at once. */
+  @media (max-width: 700px) {
+    .row { flex-direction: column; align-items: stretch; }
+    .row .pic { order: 2; }
+    /* Per-row exception: add class="pic first" to one image cell
+       to put just that image before its text on mobile. */
+    .row .pic.first { order: -1; }
+  }
 </style>
 
 <!-- The crest below is loaded from Wikimedia Commons. Swap the src for a file in assets/images/ to use the official wordmark. -->
@@ -41,14 +55,14 @@ Ready to join? Check your eligibility by clicking through to the survey below.
 Use the button above to check your eligibility for the study, and complete a psychology survey. This takes 10-15 minutes, and is easiest on a laptop. 
 
   </div>
-  <div><img src="{{ '/assets/images/survey.png' | relative_url }}" alt="Step 1"></div>
+  <div class="pic"><img src="{{ '/assets/images/survey.png' | relative_url }}" alt="Step 1"></div>
 </div>
 
 <!-- Step 2 uses an image stored in this repo: the file is assets/images/step-2.jpg,
      and the src below points at it. To change it, drop a new file into assets/images/
      and update the filename here. -->
 <div class="row">
-  <div><img src="{{ '/assets/images/intervention.png' | relative_url }}" alt="Step 2"></div>
+  <div class="pic"><img src="{{ '/assets/images/intervention.png' | relative_url }}" alt="Step 2"></div>
   <div markdown="1">
 
 ## Step 2 – Attend your Session
@@ -65,7 +79,7 @@ Don't worry - you can skip questions that are too difficult!
 Before you leave, you will be asked to complete the exit survey. This will take another 10-15 minutes. You will then receive your confirmation and compensation. 
 
   </div>
-  <div><img src="{{ '/assets/images/completion.png' | relative_url }}" alt="Step 3"></div>
+  <div class="pic"><img src="{{ '/assets/images/completion.png' | relative_url }}" alt="Step 3"></div>
 </div>
 
 <div class="cta"><a href="https://example.com/cta">Sign up</a></div>
