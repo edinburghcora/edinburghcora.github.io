@@ -30,29 +30,30 @@ We are studying meaningful interactions with strangers, and how this shapes our 
 
 Ready to join? Check your eligibility by clicking through to the survey below. 
 
-<div class="cta"><a href="https://example.com/cta">Primary call to action</a></div>
+<div class="cta"><a href="https://example.com/cta">Join our research</a></div>
 
 <!-- Images can come from this repo (assets/images/...) or from any https:// URL.
      Step 1 below uses an online image; Steps 2 and 3 use files from assets/images/. -->
 <div class="row">
   <div markdown="1">
 
-## Step 1 – Heading
-Text for step 1. Explain what happens at this stage and what the reader needs to do.
+## Step 1 – Entrance Survey
+Use the button above to check your eligibility for the study, and complete a psychology survey. This takes 10-15 minutes, and is easiest on a laptop. 
 
   </div>
-  <div><img src="https://picsum.photos/id/1015/800/500" alt="Step 1"></div>
+  <div><img src="{{ '/assets/images/survey.png' | relative_url }}" alt="Step 1"></div>
 </div>
 
 <!-- Step 2 uses an image stored in this repo: the file is assets/images/step-2.jpg,
      and the src below points at it. To change it, drop a new file into assets/images/
      and update the filename here. -->
 <div class="row">
-  <div><img src="{{ '/assets/images/step-2.jpg' | relative_url }}" alt="Step 2"></div>
+  <div><img src="{{ '/assets/images/intervention.png' | relative_url }}" alt="Step 2"></div>
   <div markdown="1">
 
-## Step 2 – Heading
-Text for step 2. Keep it to a short paragraph.
+## Step 2 – Attend your Session
+You will be invited to our offices near Bristo Square for your experimental session. A researcher will demonstrate the game and procedure to you and the participant your are paired with. The questions will ask you to share life experiences, important memories, discuss differences in your values and also find common ground. 
+Don't worry - you can skip questions that are too difficult! 
 
   </div>
 </div>
@@ -60,17 +61,30 @@ Text for step 2. Keep it to a short paragraph.
 <div class="row">
   <div markdown="1">
 
-## Step 3 – Heading
-Text for step 3. Close out the sequence with the final action.
+## Step 3 – Exit Survey
+Before you leave, you will be asked to complete the exit survey. This will take another 10-15 minutes. You will then receive your confirmation and compensation. 
 
   </div>
-  <div><img src="{{ '/assets/images/step-3.png' | relative_url }}" alt="Step 3"></div>
+  <div><img src="{{ '/assets/images/completion.png' | relative_url }}" alt="Step 3"></div>
 </div>
 
-<div class="cta"><a href="https://example.com/cta">Secondary call to action</a></div>
+<div class="cta"><a href="https://example.com/cta">Sign up</a></div>
+
+### Compensation
+
+You will receive £5 for completing the entire study, and you be entered into a prize draw for £150 cash. You receive one entry into the prize draw for completing the entrance survey. You receive an additional ten entries into the prize draw for attending your in-person session and finishing the entire study. 
+
+### Eligibility
+
+You must be 18+ to participate in any part of this study. 
+We may not be able to invite all entrance survey completers to an in-person session. However, you will still be entered into the prize draw as detailed above. We will contact you directly if selected for the in-person session. 
+
+### Who Are We?
+
+CORA research group is a team of social psychologists at the University of Edinburgh, composed largely of PhD researchers and undergraduate research assistants. We study attitudes between people in a social world, and are particularly interested in how interacting with other people can change how we view others. 
 
 <footer>
-  <span>Questions? <a href="mailto:contact@ed.ac.uk">contact@ed.ac.uk</a><br>
-  © The University of Edinburgh · <a href="https://www.ed.ac.uk">ed.ac.uk</a></span>
+  <span>Questions? <a href="mailto:contact@ed.ac.uk">ppls.cora@ed.ac.uk</a><br>
+  © The University of Edinburgh, 2026 · <a href="https://www.ed.ac.uk">ed.ac.uk</a></span>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/960px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
 </footer>
