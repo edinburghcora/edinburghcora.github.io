@@ -46,7 +46,7 @@ Ready to join? Check your eligibility by clicking through to the survey below.
 
 <!-- Both buttons currently open an email to the study contact. When the survey or
      sign-up form is live, replace the mailto link in href with its https:// address. -->
-<div class="cta"><a href="mailto:contact@ed.ac.uk?subject=Joining%20the%20CORA%20study">Join our research</a></div>
+<div class="cta"><a href="mailto:ppls.cora@ed.ac.uk?subject=Joining%20the%20CORA%20study">Join our research</a></div>
 
 <!-- Images can come from this repo (assets/images/...) or from any https:// URL.
      Step 1 below uses an online image; Steps 2 and 3 use files from assets/images/. -->
@@ -84,7 +84,7 @@ Before you leave, you will be asked to complete the exit survey. This will take 
   <div class="pic"><img src="{{ '/assets/images/completion.png' | relative_url }}" alt="Step 3"></div>
 </div>
 
-<div class="cta"><a href="mailto:contact@ed.ac.uk?subject=Joining%20the%20CORA%20study">Sign up</a></div>
+<div class="cta"><a href="mailto:ppls.cora@ed.ac.uk?subject=Joining%20the%20CORA%20study">Sign up</a></div>
 
 ### Compensation
 
@@ -100,7 +100,7 @@ We may not be able to invite all entrance survey completers to an in-person sess
 CORA research group is a team of social psychologists at the University of Edinburgh, composed largely of PhD researchers and undergraduate research assistants. We study attitudes between people in a social world, and are particularly interested in how interacting with other people can change how we view others. 
 
 <footer>
-  <span>Questions? <a href="mailto:contact@ed.ac.uk">ppls.cora@ed.ac.uk</a><br>
+  <span>Questions? <a href="mailto:ppls.cora@ed.ac.uk">ppls.cora@ed.ac.uk</a><br>
   © The University of Edinburgh, 2026 · <a href="https://www.ed.ac.uk">ed.ac.uk</a></span>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/960px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
 </footer>
