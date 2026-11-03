@@ -20,11 +20,15 @@ layout: default
 
 <!-- The crest below is loaded from Wikimedia Commons. Swap the src for a file in assets/images/ to use the official wordmark. -->
 <div class="header">
-  <h1>Page Title</h1>
+  <h1>CORA Research Group</h1>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/University_of_Edinburgh_c%C3%ADmer.svg/960px-University_of_Edinburgh_c%C3%ADmer.svg.png" alt="University of Edinburgh">
 </div>
+<h2>Want to experience a social psychology experiment?</h2>
+The Contact, Outgroup Relations and Attitudes (CORA) research group at The University of Edinburgh now have a rare opportunity for you to join an in-person, social experiment.
 
-Intro paragraph goes here. Two or three sentences explaining what this page is about and who it's for.
+We are studying meaningful interactions with strangers, and how this shapes our perceptions of others and the world around us. The study involves coming to the Psychology department in Edinburgh where you will be paired with a stranger, and asked to play a co-operative game while asking set questions designed to get to know each other on a meaningful level. 
+
+Ready to join? Check your eligibility by clicking through to the survey below. 
 
 <div class="cta"><a href="https://example.com/cta">Primary call to action</a></div>
 
