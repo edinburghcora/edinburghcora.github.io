@@ -1,5 +1,5 @@
 ---
-title: Page Title
+title: CORA Research Group
 layout: default
 ---
 
