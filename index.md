@@ -44,7 +44,9 @@ We are studying meaningful interactions with strangers, and how this shapes our 
 
 Ready to join? Check your eligibility by clicking through to the survey below. 
 
-<div class="cta"><a href="https://example.com/cta">Join our research</a></div>
+<!-- Both buttons currently open an email to the study contact. When the survey or
+     sign-up form is live, replace the mailto link in href with its https:// address. -->
+<div class="cta"><a href="mailto:contact@ed.ac.uk?subject=Joining%20the%20CORA%20study">Join our research</a></div>
 
 <!-- Images can come from this repo (assets/images/...) or from any https:// URL.
      Step 1 below uses an online image; Steps 2 and 3 use files from assets/images/. -->
@@ -82,7 +84,7 @@ Before you leave, you will be asked to complete the exit survey. This will take 
   <div class="pic"><img src="{{ '/assets/images/completion.png' | relative_url }}" alt="Step 3"></div>
 </div>
 
-<div class="cta"><a href="https://example.com/cta">Sign up</a></div>
+<div class="cta"><a href="mailto:contact@ed.ac.uk?subject=Joining%20the%20CORA%20study">Sign up</a></div>
 
 ### Compensation
 
